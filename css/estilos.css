@@ -285,3 +285,26 @@ footer{
     margin: 20px 0 0 0;
     color: #9e9797;
 }
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+
+    .imagen-sobre-nosotros{
+        width: 90%;
+    }
+
+    .imagen-port{
+        width: 44%;
+    }
